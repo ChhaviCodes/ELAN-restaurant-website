@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ELAN| AN EVENING WORTH REMEBERING</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+
+    <img 
+        id="header-img"
+        src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f"
+        alt="Elegant interior of ÉLAN restaurant"
+    >
+
+    <div class="hero-content">
+        <p class="eyebrow">CONTEMPORARY DINING</p>
+
+        <h1>ÉLAN</h1>
+
+        <p class="tagline">An Evening Worth Remembering</p>
+    </div>
+
+    <nav>
+        <a href="#menu">Our Menu</a>
+        <a href="#order-form">Place Your Order</a>
+    </nav>
+
+</header>
+
+<main>
+
+    <section id="menu">
+
+        <p class="section-label">A TASTE OF ÉLAN</p>
+
+        <h2>Menu</h2>
+
+        <div class="menu-container">
+
+            <article class="menu-item">
+
+                <img
+                    src="https://images.unsplash.com/photo-1601050690597-df0568f70950"
+                    alt="Rosemary Truffle Croquettes"
+                >
+
+                <h3>Rosemary Truffle Croquettes</h3>
+
+                <p>
+                    Crispy potato croquettes infused with rosemary
+                    and truffle, served with parmesan cream.
+                    <em>₹495</em>
+                </p>
+
+            </article>
+
+
+            <article class="menu-item">
+
+                <img
+                    src="https://images.unsplash.com/photo-1572449043416-55f4685c9bb7"
+                    alt="Burrata and heirloom tomatoes"
+                >
+
+                <h3>Burrata & Heirloom Tomatoes</h3>
+
+                <p>
+                    Creamy burrata paired with sweet heirloom
+                    tomatoes, basil oil and aged balsamic.
+                    <em>₹625</em>
+                </p>
+
+            </article>
+
+
+            <article class="menu-item">
+
+                <img
+                    src="https://images.unsplash.com/photo-1476124369491-e7addf5db371"
+                    alt="ÉLAN signature risotto"
+                >
+
+                <h3>ÉLAN Signature Risotto</h3>
+
+                <p>
+                    Silky parmesan risotto with wild mushrooms,
+                    fresh herbs and a touch of truffle.
+                    <em>₹895</em>
+                </p>
+
+            </article>
+
+
+            <article class="menu-item">
+
+                <img
+                    src="https://images.unsplash.com/photo-1631452180519-c014fe946bc7"
+                    alt="Saffron Paneer Royale"
+                >
+
+                <h3>Saffron Paneer Royale</h3>
+
+                <p>
+                    Delicate saffron-marinated paneer served with
+                    fragrant rice and a creamy royal sauce.
+                    <em>₹795</em>
+                </p>
+
+            </article>
+
+
+            <article class="menu-item">
+
+                <img
+                    src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9"
+                    alt="Rose and pistachio dessert"
+                >
+
+                <h3>Rose & Pistachio Cloud</h3>
+
+                <p>
+                    Delicate rose mousse layered with pistachio
+                    crumble and white chocolate.
+                    <em>₹425</em>
+                </p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+    <section id="order-form">
+
+    <p class="section-label">YOUR TABLE AWAITS</p>
+
+    <h2>Place Your Order</h2>
+
+    <form>
+
+        <div class="form-group">
+            <label for="croquettes">
+                Rosemary Truffle Croquettes
+            </label>
+
+            <input
+                type="number"
+                id="croquettes"
+                name="croquettes"
+                min="0"
+                value="0"
+            >
+        </div>
+
+
+        <div class="form-group">
+            <label for="burrata">
+                Burrata & Heirloom Tomatoes
+            </label>
+
+            <input
+                type="number"
+                id="burrata"
+                name="burrata"
+                min="0"
+                value="0"
+            >
+        </div>
+
+
+        <div class="form-group">
+            <label for="risotto">
+                ÉLAN Signature Risotto
+            </label>
+
+            <input
+                type="number"
+                id="risotto"
+                name="risotto"
+                min="0"
+                value="0"
+            >
+        </div>
+
+
+        <div class="form-group">
+            <label for="paneer">
+                Saffron Paneer Royale
+            </label>
+
+            <input
+                type="number"
+                id="paneer"
+                name="paneer"
+                min="0"
+                value="0"
+            >
+        </div>
+
+
+        <div class="form-group">
+            <label for="dessert">
+                Rose & Pistachio Cloud
+            </label>
+
+            <input
+                type="number"
+                id="dessert"
+                name="dessert"
+                min="0"
+                value="0"
+            >
+        </div>
+
+
+        <fieldset>
+
+            <legend>Enhance Your Experience</legend>
+
+            <label>
+                <input
+                    type="checkbox"
+                    name="addon"
+                    value="parmesan"
+                >
+                Extra Parmesan
+            </label>
+
+            <label>
+                <input
+                    type="checkbox"
+                    name="addon"
+                    value="truffle"
+                >
+                Truffle Oil
+            </label>
+
+            <label>
+                <input
+                    type="checkbox"
+                    name="addon"
+                    value="bread"
+                >
+                Artisan Garlic Bread
+            </label>
+
+        </fieldset>
+
+
+        <fieldset>
+
+            <legend>Dining Preference</legend>
+
+            <label>
+                <input
+                    type="radio"
+                    name="dining"
+                    value="dine-in"
+                >
+                Dine In
+            </label>
+
+            <label>
+                <input
+                    type="radio"
+                    name="dining"
+                    value="takeaway"
+                >
+                Takeaway
+            </label>
+
+        </fieldset>
+
+
+        <label for="special-requests">
+            Special Requests
+        </label>
+
+        <textarea
+            id="special-requests"
+            name="special-requests"
+            rows="5"
+            placeholder="Any allergies, dietary preferences or special requests?"
+        ></textarea>
+
+
+        <input
+            type="submit"
+            value="Go To Checkout"
+        >
+
+    </form>
+
+</section>
+<footer>
+    <p>Made with love by CHHAVI</p>
+</footer>
+</main>
+</body>
+</html>
